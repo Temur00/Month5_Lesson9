@@ -68,6 +68,65 @@ body .phone-box .up i:nth-child(6) {
   color: #f7f7f7;
   font-size: 19px;
 }
+body .phone-box .apps {
+  margin-top: 465px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 250;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background: #9d9d9d;
+  border-radius: 26px;
+  justify-content: space-between;
+}
+body .phone-box .apps .call {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 9px;
+  border-radius: 12px;
+  background: #50c945;
+}
+body .phone-box .apps .call i {
+  color: #fff;
+  font-size: 48px;
+}
+body .phone-box .apps .email {
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  margin-bottom: 9px;
+  border-radius: 12px;
+  background: #6aa2db;
+}
+body .phone-box .apps .email i {
+  color: #fff;
+  font-size: 48px;
+}
+body .phone-box .apps .timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  margin-left: 32px;
+  margin-bottom: 9px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+body .phone-box .apps .timer i {
+  color: #44a8cf;
+  font-size: 48px;
+}
 body .phone-box .line {
   display: flex;
   align-items: center;
