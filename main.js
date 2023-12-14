@@ -7,7 +7,14 @@ const options = {
 const date3 = date.toLocaleDateString("en-IN", options);
 document.getElementById("formattedDate").innerHTML += date3;
 
-var clock = new Date();
-var current_time =
-  date.getHours() + ":" + clock.getMinutes() + ":" + clock.getSeconds();
-document.getElementById("clock").innerHTML = current_time;
+const stopBtn = document.querySelector(".stop");
+const clock = document.getElementById("clock");
+
+let stopTimeout = setTimeout(() => {
+  console.log("3000");
+}, 3000);
+
+let stopInterval = setInterval(() => {
+  // console.log(new Date().toLocaleTimeString('it-IT'));
+  clock.innerHTML = new Date().toLocaleTimeString("it-IT");
+}, 1000);
