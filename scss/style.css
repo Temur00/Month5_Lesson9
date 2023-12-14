@@ -27,66 +27,46 @@ body .phone-box {
 body .phone-box .up {
   display: flex;
 }
+body .phone-box .up .clock-date {
+  display: flex;
+  padding-left: 8px;
+  padding-top: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+}
+body .phone-box .up .clock-date .date {
+  display: none;
+}
+body .phone-box .up .clock-date p {
+  font-weight: 1200px;
+  font-size: 14px;
+}
 body .phone-box .up .camera-position {
-  margin-left: 106px;
+  margin-left: 45px;
   margin-top: 5px;
   background: #000;
   width: 72px;
   height: 19px;
   border-radius: 50px;
 }
-body .phone-box .up i:nth-child(3) {
-  padding-left: 25px;
-  padding-top: 8px;
-  color: #f7f7f7;
-  font-size: 14px;
-}
 body .phone-box .up i:nth-child(4) {
-  padding-left: 4px;
+  padding-left: 25px;
   padding-top: 8px;
   color: #f7f7f7;
   font-size: 14px;
 }
 body .phone-box .up i:nth-child(5) {
   padding-left: 4px;
+  padding-top: 8px;
+  color: #f7f7f7;
+  font-size: 14px;
+}
+body .phone-box .up i:nth-child(6) {
+  padding-left: 4px;
   padding-top: 7px;
   color: #f7f7f7;
   font-size: 19px;
-}
-body .phone-box .clock-date {
-  padding-top: 25px;
-  text-align: center;
-  font-family: sans-serif;
-  color: #fff;
-}
-body .phone-box .clock-date p {
-  font-weight: 1200px;
-  font-size: 56px;
-}
-body .phone-box .down {
-  padding-top: 390px;
-  padding-left: 30px;
-  padding-right: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-body .phone-box .down p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: #414141;
-  transition: 0.4s;
-  border-radius: 50px;
-  cursor: pointer;
-}
-body .phone-box .down p i {
-  font-size: 20px;
-  color: #fff;
-}
-body .phone-box .down p:hover {
-  background: #494949;
 }
 body .phone-box .line {
   display: flex;
@@ -104,4 +84,4 @@ body .phone-box .line a hr {
   width: 96px;
   height: 6px;
   border-radius: 12px;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=style.css.map */
